@@ -28,7 +28,7 @@ const ModalCombinations = (props)=>{
                     <Button color="primary" onClick={calculateCombination}> Calcular combinaciones</Button>
                 </FormGroup>
                 <FormGroup>
-                    <textarea readOnly="true" style={{width: "100%"}} value={resultCombinations}></textarea>
+                    <textarea readOnly={true} style={{width: "100%"}} value={resultCombinations}></textarea>
                 </FormGroup>
                 <Button
                     className="btn btn-danger"
