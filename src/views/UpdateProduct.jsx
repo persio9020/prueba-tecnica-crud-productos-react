@@ -54,7 +54,7 @@ const UpdateProduct = () => {
                             <label>Cantidad en Stock: </label>
                             <input type="number" placeholder="Cantidad" name="cantidadStock"
                                    className="form-control"
-                                   value={descripcion} onChange={e => setCantidadStock(e.target.value)}/>
+                                   value={cantidadStock} onChange={e => setCantidadStock(e.target.value)}/>
                         </div>
                         <Button color="success">Actualizar</Button>
                     </form>
